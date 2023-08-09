@@ -7,7 +7,25 @@
     <title>Huddle landing page</title>
     <link rel="stylesheet" href="./dist/output.css">
 </head>
-<body>
-    
+<body class="flex flex-col justify-evenly items-center bg-[url('/images/bg-desktop.svg') bg-indigo-400 h-screen">
+    <!-- logo section -->
+    <div class="w-[90%] justify-start"><img src="images/logo.svg" alt=""></div>
+    <!-- main section -->
+    <div class="flex flex-row justify-between w-[90%] mt-6">
+        <!-- img box -->
+        <div class="w-[60%]" >
+            <img src="images/illustration-mockups.svg" alt="" class="w-[90%]">
+        </div>
+        <!-- text box -->
+        <div class="w-[40%] flex flex-col justify-start items-start gap-10 pt-16">
+            <!-- title -->
+                <h2 class="font-bold font-serif text-6xl text-indigo-100">Build The Community Your Fans Will Love</h2>
+            <!-- content -->
+                <span class="text-indigo-100 text-xl gap-3">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+                    Create connections with your users as you engage in genuine discussion.</span>
+            <!-- button -->
+                <button class="bg-indigo-100 h-12 w-[200px] text-indigo-600 rounded-full">Register</button>
+        </div>
+    </div>
 </body>
 </html>
