@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'herro-pattern': "url('images/bg-desktop.svg')",
+      }
+    },
   },
   plugins: [],
 }
