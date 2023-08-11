@@ -2,10 +2,11 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
+    screens: {
+      'mobile':{'max':'375px'}
+    },
     extend: {
-      backgroundImage:{
-        'herro-pattern': "url('images/bg-desktop.svg')",
-      }
+    
     },
   },
   plugins: [],

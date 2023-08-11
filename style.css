@@ -1,0 +1,17 @@
+#twitter-box:hover :first-child,
+#facebook-box:hover :first-child,
+#instagram-box:hover :first-child{
+    color: rgb(249, 168, 212);
+}
+
+body{
+    padding-top: 100px;
+    background-image: url("./images/bg-desktop.svg");
+}
+@media screen and (max-width:375px) {
+    body{
+        padding-top: 180px;
+        background-image: url('./images/bg-mobile.svg');
+        background-position:0px 0px;
+    }
+}
